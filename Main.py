@@ -2,18 +2,7 @@
 import os
 
 class Stack:
-""" Creation of a class called Stack. This class includes all the necessary stack operations. This class contains 6 necessary function for the Operation of stack.
-1st. to intialize size of the stack with the Stack class(max size of the stack)
-2nd. A function to  check if the stack is empty(Stack underflow).
-3rd. A function to check if the stack is full(Stack overflow).
-4th. A function to push(add) elements in the stack.
-5th. A function to pop(remove) elements in the stack.
-6th. A function to show the elements present in the stack line by line
-Attributes:
-    size = To ensure the max size of the stack
-    items = to add  elements in the stack for stack operation
-Initializing items and size with the class Stack
-"""
+
     def __init__(self, size):
         self.items = []
         self.size = size
