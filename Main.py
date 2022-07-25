@@ -9,12 +9,11 @@ class Stack:
 4th. A function to push(add) elements in the stack.
 5th. A function to pop(remove) elements in the stack.
 6th. A function to show the elements present in the stack line by line
-"""
-"""Attributes:
+Attributes:
     size = To ensure the max size of the stack
-    items = to add  elements in the stack for stack operation """
-
-"""Initializing items and size with the class Stack"""
+    items = to add  elements in the stack for stack operation
+Initializing items and size with the class Stack
+"""
     def __init__(self, size):
         self.items = []
         self.size = size
