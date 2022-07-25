@@ -1,3 +1,4 @@
+
 import os
 class Stack:
     def __init__(self, size):
@@ -5,14 +6,13 @@ class Stack:
         self.size = size
 
     def is_empty(self):
-   
         if (self.items == 0):
             return True
         else:
             return False
 
     def is_full(self):
-        if len(self.item == self.size):
+        if len(self.items == self.size):
             return True
         else:
             return False
@@ -20,12 +20,12 @@ class Stack:
     def push(self, data):
         if not self.is_full():
             # Write code here
-            self.item.append(data)
+            self.items.append(data)
 
     def pop(self):
         if not self.is_empty():
             # Write code here
-            self.item.pop
+            self.items.pop()
 
     def status(self):
         for x in stack:
