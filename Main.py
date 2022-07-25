@@ -1,4 +1,3 @@
-
 import os
 class Stack:
     def __init__(self, size):
@@ -28,8 +27,8 @@ class Stack:
             self.items.pop()
 
     def status(self):
-        for x in self.items:
-            return x
+        for element in self.items:
+            print(element)
 
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
